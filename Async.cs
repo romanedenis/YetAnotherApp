@@ -1,7 +1,8 @@
+/*
 Le développement asynchrone en C# permet d'exécuter des opérations qui prennent du temps sans bloquer le thread principal de l'application. Par exemple, si on veut télécharger un fichier depuis un serveur, on peut utiliser une méthode asynchrone qui va lancer le téléchargement sur un thread secondaire et retourner immédiatement le contrôle au thread principal. Le thread principal peut alors continuer à exécuter d'autres tâches pendant que le téléchargement se fait en arrière-plan. Quand le téléchargement est terminé, on peut utiliser un mot-clé await pour attendre le résultat de la méthode asynchrone et continuer le traitement.
 
 Voici un exemple de code en C# qui illustre le développement asynchrone:
-
+*/
 
 using System;
 using System.IO;
